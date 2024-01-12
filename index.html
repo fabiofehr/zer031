@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>ZER031 - Clothing</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: black;
+        }
+        .navbar-nav .nav-link.active{
+            color:#fff;
+        }
+        header {
+            background-color: black;
+            position: sticky;
+            top: 0;
+            left: 0;
+        }
+        header h1{
+            font-weight: bold;
+            font-style: italic;
+            color: #fff;
+        }
+        .nav-link {
+            text-align: center;
+            color: #fff;
+        }
+        section {
+            padding: 16px;
+            color: #fff;
+        }
+        section h2 {
+            font-weight: bold;
+            font-style: italic;
+            font-size: 40px;
+        }
+        .carousel-item img {
+            height: 800px;  
+            object-fit: cover;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="mae" data-bs-spy="scroll" data-bs-target="#cabecalho"></div>
+
+<section id="home">
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>ZER031 CLOTHING</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link " href="#home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobreNos">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+</section>
+
+    <div class="container">
+        <div id="carouselx" class="carousel carousel-fade data-bs-slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100 " src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9f684ace-3163-4227-8f85-2d2a067dd4f5/sapatilhas-air-max-90-gore-tex-fQjC4b.png" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b1d455eb-8447-4b51-a2b3-61db8b7a78fe/sapatilhas-air-force-1-07-s3MmS3.png" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/587c6b55-086d-4acf-b844-7a666394264b/sapatilhas-dunk-low-junior-MpPs6m.png" alt="">
+                </div>
+            </div>
+            <button data-bs-target="#carouselx" data-bs-slide="prev" class="carousel-control-prev " type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carouselx" data-bs-slide="next" class="carousel-control-next " type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators text-bg-dark">
+                <button type="button" data-bs-target="#carouselx" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carouselx" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselx" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <section id="produtos">
+            <h2>PRODUTOS</h2>
+        <div class="row g-3">
+            <div class="col-4 ">
+                <div class="card text-bg-dark">
+                    <img src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/8723269b-1e63-4b5e-922b-6d3aca20b715/air-jordan-1-dark-mocha-release-date.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">AIR JORDAN 1 HIGH </h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt eos veritatis consequatur cumque, nesciunt suscipit deserunt odio. Doloremque aliquid earum, suscipit non beatae totam quos iste, dolorem, obcaecati error reprehenderit?
+                        </p>
+                        <a href="#" class="btn btn-danger">Escolha o seu</a>
+                    </div>
+                    <footer class="card-footer">
+                        Publicado em <time>08/01/2024 às 20:45</time>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <img src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/gr93unb9grmcghrbvqqh/women-s-nike-shox-tl-black-and-max-orange-ar3566-002-release-date.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">NIKE SHOX TL </h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt eos veritatis consequatur cumque, nesciunt suscipit deserunt odio. Doloremque aliquid earum, suscipit non beatae totam quos iste, dolorem, obcaecati error reprehenderit?
+                        </p>
+                        <a href="#" class="btn btn-danger">Escolha o seu</a>
+                    </div>
+                    <footer class="card-footer">
+                        Publicado em <time>09/01/2024 às 21:07</time>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <img src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/bc9c0c62-00bc-4ba6-9d4a-9ac76cfb5b8d/nocta-glide-black-and-white-dm0879-001-release-date.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">NOCTA GLIDE</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt eos veritatis consequatur cumque, nesciunt suscipit deserunt odio. Doloremque aliquid earum, suscipit non beatae totam quos iste, dolorem, obcaecati error reprehenderit?
+                        </p>
+                        <a href="#" class="btn btn-danger">Escolha o seu</a>
+                    </div>
+                    <footer class="card-footer">
+                        Publicado em <time>09/01/2024 às 21:07</time>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <img src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/bwnv8s3pjfcjzntwa2qu/air-force-1-low-black-and-white-cq0492-001-release-date.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">AIR FORCE 1 LOW</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt eos veritatis consequatur cumque, nesciunt suscipit deserunt odio. Doloremque aliquid earum, suscipit non beatae totam quos iste, dolorem, obcaecati error reprehenderit?
+                        </p>
+                        <a href="#" class="btn btn-danger">Escolha o seu</a>
+                    </div>
+                    <footer class="card-footer">
+                        Publicado em <time>09/01/2024 às 21:07</time>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <img src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/4c9f0290-f9f8-4a14-8d36-2c039bd56f77/air-force-1-07-burgundy-crush-fb8876-600-release-date.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">AIR FORCE 1 07</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt eos veritatis consequatur cumque, nesciunt suscipit deserunt odio. Doloremque aliquid earum, suscipit non beatae totam quos iste, dolorem, obcaecati error reprehenderit?
+                        </p>
+                        <a href="#" class="btn btn-danger">Escolha o seu</a>
+                    </div>
+                    <footer class="card-footer">
+                        Publicado em <time>09/01/2024 às 21:07</time>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <img src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/7f687d91-4835-4dc7-8e21-359b5b598e86/women-s-dunk-low-sail-and-sport-red-fb7910-600-release-date.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">DUNK LOW</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt eos veritatis consequatur cumque, nesciunt suscipit deserunt odio. Doloremque aliquid earum, suscipit non beatae totam quos iste, dolorem, obcaecati error reprehenderit?
+                        </p>
+                        <a href="#" class="btn btn-danger">Escolha o seu</a>
+                    </div>
+                    <footer class="card-footer">
+                        Publicado em <time>08/01/2024 às 21:13</time>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        </section>
+        </div>
+
+        <div class="container">
+            <section id="sobreNos">
+                <h2>SOBRE NÓS</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestias architecto doloremque quidem totam, dolor consectetur earum! Eos fuga accusantium libero dolorum quibusdam magnam doloremque laboriosam. Reprehenderit quaerat molestias dicta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, illo pariatur. Magnam sunt possimus doloremque sit blanditiis libero a provident nemo est. Alias ea veritatis adipisci nemo at sapiente molestias. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate rerum veritatis molestiae minus impedit, eos iste ex, dolor doloremque soluta est aut enim! Nemo commodi asperiores nesciunt sequi explicabo aliquam!
+                </p>
+            </section>
+        </div>
+
+        <div class="container">
+            <section id="contato">
+                <h2>CONTATO</h2>
+            </section>
+        </div>
+
+</div>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
